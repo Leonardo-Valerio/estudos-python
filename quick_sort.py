@@ -15,6 +15,6 @@ def quick_sort(lista):
            iguais.append(lista[i])
     return quick_sort(menores) + iguais + quick_sort(maiores)
 
-lista = [7,7,2,8,4,2,5,1,3]
+lista = [70, 20, 4, 29, 39, 98, 59, 80, 17, 52]
 
 print(quick_sort(lista))
